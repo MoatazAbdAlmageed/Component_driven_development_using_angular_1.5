@@ -1,0 +1,15 @@
+{
+  "name": "Component_driven_development_using_angular_1.5_-_YouTube",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "light-server": "~1.1.7"
+  }
+}
