@@ -4,14 +4,35 @@
     <meta charset="UTF-8">
     <title>Component driven development using angular 1.5 - YouTube</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
+
+
+
+
 <div class="container">
-    <greatings></greatings>
+    <app></app>
+    <!--<header-component></header-component>-->
+
+    <!--<ng-outlet></ng-outlet>-->
+
+    <!--<about-component></about-component>-->
 </div>
+
+
+
 <script src="bower_components/jquery/dist/jquery.js"></script>
-<script src="bower_components/angular/angular.js"></script>
+<!--<script src="bower_components/angular/angular.js"></script>-->
+<script src="angular.min.js"></script>
+
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-component-router/angular_1_router.js"></script>
 <script src="app/app.js"></script>
+<script src="app/components/headerComponent.js"></script>
+<script src="app/components/aboutComponent.js"></script>
+<script src="app/components/homeComponent.js"></script>
+<script src="app/components/employeesComponent.js"></script>
 </body>
 </html>

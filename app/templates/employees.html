@@ -1,0 +1,14 @@
+<h1>Employees</h1>
+<div class="row">
+
+    <div class="col-md-3 col-sm-6 hero-feature" ng-repeat="employee in employees">
+        <div class="thumbnail">
+            <img class="img-responsive" width="200px" height="200px" ng-src="img/{{employee.img}}" alt="">
+            <div class="caption">
+                <h3>{{employee.name | uppercase}}</h3>
+                <p class="badge">Score : {{employee.score}}</p>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "moataz",
+    "img": "moataz.jpg",
+    "score": 99
+  },
+  {
+    "name": "mohamed",
+    "img": "mohamed.jpg",
+    "score": 70
+  },
+  {
+    "name": "ashraf",
+    "img": "ashraf.jpg",
+    "score": 60
+  },
+  {
+    "name": "gamal",
+    "img": "gamal.jpg",
+    "score": 40
+  },
+  {
+    "name": "wessam",
+    "img": "wessam.jpg",
+    "score": 75
+  },
+  {
+    "name": "saber",
+    "img": "saber.jpg",
+    "score": 77
+  }
+]
